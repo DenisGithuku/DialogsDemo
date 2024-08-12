@@ -9,7 +9,7 @@ data class MainUiState(
     val isDialogVisible: Boolean = false
 )
 
-class MainViewModel: ViewModel() {
+class SignInViewModel: ViewModel() {
 
     // property holding class state
     private var _state: MutableState<MainUiState> = mutableStateOf(MainUiState())
